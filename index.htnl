@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Art Styles Guide</title>
+
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  margin: 0;
+  background: #f5f5f7;
+  color: #1d1d1f;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.section {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.slider img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.prompt {
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  direction: ltr;
+}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<h1>Art Styles Guide</h1>
+
+<!-- SURREALISM -->
+<div class="section">
+<h2>Surrealism</h2>
+
+<div class="slider">
+<img src="https://source.unsplash.com/300x300/?surreal,art">
+<img src="https://source.unsplash.com/300x300/?dreamlike,art">
+<img src="https://source.unsplash.com/300x300/?fantasy,concept">
+</div>
+
+<div class="prompt">
+Surrealism, dreamlike scene, unexpected objects, symbolic imagery, irrational composition
+</div>
+</div>
+
+<!-- CUBISM -->
+<div class="section">
+<h2>Cubism</h2>
+
+<div class="slider">
+<img src="https://source.unsplash.com/300x300/?cubism,art">
+<img src="https://source.unsplash.com/300x300/?geometric,portrait">
+</div>
+
+<div class="prompt">
+Cubism, fragmented geometry, multiple viewpoints, structured composition
+</div>
+</div>
+
+<!-- IMPRESSIONISM -->
+<div class="section">
+<h2>Impressionism</h2>
+
+<div class="slider">
+<img src="https://source.unsplash.com/300x300/?impressionism,painting">
+<img src="https://source.unsplash.com/300x300/?soft,brush,painting">
+</div>
+
+<div class="prompt">
+Impressionism, loose brush strokes, light-driven colors, soft edges
+</div>
+</div>
+
+<!-- MINIMALISM -->
+<div class="section">
+<h2>Minimalism</h2>
+
+<div class="slider">
+<img src="https://source.unsplash.com/300x300/?minimal,design">
+<img src="https://source.unsplash.com/300x300/?clean,white,design">
+</div>
+
+<div class="prompt">
+Minimalism, very few elements, strong negative space, clean composition
+</div>
+</div>
+
+<!-- CYBERPUNK -->
+<div class="section">
+<h2>Cyberpunk</h2>
+
+<div class="slider">
+<img src="https://source.unsplash.com/300x300/?cyberpunk,city">
+<img src="https://source.unsplash.com/300x300/?neon,futuristic">
+</div>
+
+<div class="prompt">
+Cyberpunk, neon lighting, futuristic city, dark atmosphere, high contrast
+</div>
+</div>
+
+</div>
+</body>
+</html>
